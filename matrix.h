@@ -49,8 +49,6 @@ class Matrix {
             return foundNode;   
         }
 
-        Node<T> * findPrevLeft
-
         void set(int x, int y, T data)
         {
             Node<T> * aboveNode = new Node<T>();
