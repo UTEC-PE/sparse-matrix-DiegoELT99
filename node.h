@@ -9,6 +9,18 @@ class Node {
     T data;
     Node* next;
     Node* down;
+
+    public:
+        Node();
+        Node(int xCoordinate, int yCoordinate, T value, Node<T> * rightNode, Node<T> * downNode)
+        {
+            this -> x = xCoordinate;
+            this -> y = yCoordinate;
+            this -> data = value;
+            this -> next = rightNode;
+            this -> down = downNode;
+            cout << "Node Created (☆ω☆)" << endl;
+        }
 };
 
 #endif
